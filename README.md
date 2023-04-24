@@ -1,10 +1,5 @@
-- 👋 Hi, I’m @Jddhhdjw3
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-«HACKING TOOL» is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
----_»This instrument was made by Iliyas 
+- import string
+from random import *
+characters = string.ascii_letters + string.punctuation  + string.digits
+password =  "".join(choice(characters) for x in range(randint(8, 16)))
+print (password)
